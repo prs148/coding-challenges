@@ -8,7 +8,7 @@ class Image
   end
 
  
-  def output_image 
+  def output image 
   
    @image.each do |array|
       puts array.join("")
